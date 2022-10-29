@@ -1,5 +1,5 @@
 {
-  "name": "simplefolio",
+  "name": "nicksSimplefolio",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
@@ -8,7 +8,8 @@
     "start": "parcel",
     "build": "parcel build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
+    
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/mensahTribeWeb/nicksSimplefolio"
   },
-  "homepage": "https://nickmensahportfolio.com/",
+  "homepage": "https://github.com/mensahTribeWeb/nicksSimplefolio",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
     "parcel": "^2.0.1",
